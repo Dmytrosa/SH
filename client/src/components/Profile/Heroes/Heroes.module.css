@@ -1,0 +1,115 @@
+
+.Ava{
+    width: 70%;
+    height: 70%;
+    border-radius: 5%;
+}
+
+.heroesList{
+    display: grid;
+    grid-template-areas: 
+    "J S N j s";
+    grid-gap: 10px;
+    justify-content: space-around;
+  }
+
+.userBlock{
+    padding: 2px 2px;
+    margin: 10px;
+    border: solid;
+    border-radius: 5%;
+    min-width: 170px;
+
+}
+.userName{
+    position: relative;
+    display: flex;
+    left: 10%;
+    font-size: large;
+    
+}
+.paginatorBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    padding: 10px;
+}
+.container {
+    position: relative;
+    font-family: sans-serif;
+  }
+  
+  .container::before, .container::after {
+    content: "";
+    background-color: #c300ff44;
+    position:  absolute;
+  }
+  
+  .container::before {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    top: 30%;
+    left: 7%;
+  }
+  
+  
+  .container .box {
+    width: 240px;
+    height: 230px;
+    padding: 1rem;
+    margin-bottom: 10px;
+    background-color: rgba(255, 166, 166, 0.101);
+    border: 1px solid rgba(123, 8, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: .7rem;
+    transition: all ease .3s;
+  }
+  
+  .container .box ::after{
+    content: "";
+    position: absolute;
+    height: 13rem;
+    top: 8%;
+    right: 7%;
+    border: 1px solid;
+  }
+  
+  .container .box .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .1em;
+    word-break: normal;
+    word-wrap: break-word;
+  }
+  
+  .container .box div strong {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  .container .box div p {
+    margin: 0;
+    font-size: .9em;
+    font-weight: 300;
+    letter-spacing: .1em;
+  }
+  
+  .container .box div span {
+    font-size: .7rem;
+    font-weight: 300;
+  }
+  
+  .container .box div span:nth-child(3) {
+    font-weight: 500;
+    margin-right: .2rem;
+  }
+  
+  .container .box:hover {
+    box-shadow: 0px 0px 20px 1px #1f4c65;
+    border: 1px solid #1f4c65;
+  }
+
+  

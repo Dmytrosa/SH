@@ -1,0 +1,108 @@
+.body {
+  background-color: #060734;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #62c8fe;
+  }
+  .st{
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .sttext{
+    color: antiquewhite;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .resetStatus{
+    background: #901313;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 10;
+    letter-spacing: 3px;
+    display: flex;
+  }
+
+  .form {
+    background-color: #060734;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+    
+  }
+  
+  .checkBoxWithLabel{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputCheck{ 
+    width: 20px;
+    height: 20px;
+    
+  }
+  
+  .input {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 5px 15px;
+    margin: 0 10px 7px 10px;
+  }
+  
+  .label {
+    line-height: 2;
+    margin-top: 7px;
+    color: white;
+    font-weight: 200;
+  }
+  .status{
+margin: 10px 10px;
+padding: 10px 100px;
+display: inline;
+
+  }
+.onChangeStatus{
+  padding-left: 1%;
+}
+  
+  .input:disabled {
+    opacity: 0.4;
+  }
+  
+  .input[type="button"],
+  .input[type="submit"] {
+    text-decoration: none;
+    -webkit-appearance: none;
+  }
+  
+  .Login {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  .hr {
+    margin-top: 30px;
+  }
+  
+  .i {
+    color: white;
+  }
+  
+  .span {
+    color: tomato;
+  }
+  

@@ -1,0 +1,66 @@
+.Bbutton {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 5px;
+    background: #333;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+    display: flex;
+  }
+
+  .Bbutton a {
+    color: #ffffff;
+    margin-left:10px ;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+ .R {
+      background: #e7000093;
+      box-shadow: 0px 0px 2px #4e0606, 5px 5px 15px #c300ff44, inset 5px 5px 10px #ff00006e, inset -5px -5px 10px #222;
+  }
+
+  .R:hover{
+    background: #08033493;
+  }
+
+  .Bbutton:hover {
+    box-shadow: -2px -2px 10px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    color: #d6d6d6;
+    transition: 500ms;
+    cursor: pointer;
+
+  }
+  
+  .Abutton{
+    /* margin: 12px; */
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 5px;
+    background: #f9e5ff44;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px #f6d6ff, 5px 5px 15px #c300ff44, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+    /* font-family: 'Damion', cursive; */
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+    display: flex;
+}
+
+
+.Abutton:hover {
+  box-shadow: -2px -2px 10px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+  color: #ffffff;
+  transition: 500ms;
+}

@@ -1,0 +1,175 @@
+.button{
+  text-decoration: none;
+padding: 4px 4px;
+margin: 5px 13px;
+color: #1a1e19;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 2px solid #343434 ;
+background-color: #d3d3d3;
+border-radius: 5px;
+align-items: center;
+text-align: center;
+box-shadow: 7px 7px   teal;}
+
+.uploadFile{
+  display: none;
+}
+
+
+.AvaLoader{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: raw;
+
+}
+
+.userInfo{
+  margin-left: 5px;
+  padding: 1% 25% 1% 3%;
+  display: inline-flex;
+  color: rgb(247, 238, 222);
+  justify-content: left;
+  border: solid #d5ffd8;
+  border-bottom-left-radius: 8%;
+  border-top-right-radius: 7%;
+  box-shadow: 2px 0px 5px 1px #48abe0;
+
+}
+
+.button:hover {
+  background: #ebebeb;
+  color: #217b15;
+  border-style: dashed  #217b15;
+  transition: 1s;
+  scale: 1.1;
+  box-shadow: 30px -5px 5px rgba(0, 128, 128, 0.452);
+}
+
+.bgp{
+  width: 100%;
+  height: 300px;
+  margin-top: 2px;
+}
+.info{
+  /* background: linear-gradient(270deg, #2f1176a0 0%, #17083b 60%); */
+  background-color: #060734;
+  font-size: 1vw;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 20px #62c8fe;
+  padding: 1% 1% 2% 0%;
+}
+.UserName{
+  font-size: 200%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-weight: bolder;
+  color: rgb(247, 238, 222);
+}
+.ava{
+  border-bottom-left-radius: 7%;
+  border-top-right-radius: 7%;
+  width: 350px;
+  max-height: 350px;
+  padding: 0px 10px 10px 0;
+}
+
+
+
+.cybbutton,
+.cybbutton::after {
+ padding: 16px 20px;
+ font-size: 18px;
+ background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+ border: 0;
+ color: #fff;
+ letter-spacing: 3px;
+ line-height: 1;
+ box-shadow: 6px 0px 0px #00e6f6;
+ outline: transparent;
+ position: relative;
+}
+
+.cybbutton::after {
+ --slice-0: inset(50% 50% 50% 50%);
+ --slice-1: inset(80% -6px 0 0);
+ --slice-2: inset(50% -6px 30% 0);
+ --slice-3: inset(10% -6px 85% 0);
+ --slice-4: inset(40% -6px 43% 0);
+ --slice-5: inset(80% -6px 5% 0);
+ display: block;
+ content: "JSNinjas♥";
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+ text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+ clip-path: var(--slice-0);
+}
+
+.cybbutton:hover::after {
+ animation: 1s cybglitch;
+ animation-timing-function: steps(2, end);
+}
+
+@keyframes cybglitch {
+ 0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+ }
+
+ 10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+ }
+
+ 20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+ }
+
+ 30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+ }
+
+ 40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+ }
+
+ 50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+ }
+
+ 60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+ }
+
+ 70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+ }
+
+ 80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+ }
+
+ 90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+ }
+
+ 100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+ }
+}

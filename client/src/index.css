@@ -1,0 +1,9 @@
+body {
+  /* background: #031c1e; */
+  background-image: url(/src/additions/Back.svg);
+  color: #cde1e7;  
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
